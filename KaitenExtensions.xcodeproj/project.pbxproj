@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF2A5A114B6B69C00F930D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF2A5A014B6B69C00F930D4 /* Cocoa.framework */; };
+		3FF2A5AB14B6B69C00F930D4 /* KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2A5AA14B6B69C00F930D4 /* KaitenExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FF2A59D14B6B69C00F930D4 /* libKaitenExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKaitenExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF2A5A014B6B69C00F930D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3FF2A5A314B6B69C00F930D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3FF2A5A414B6B69C00F930D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3FF2A5A514B6B69C00F930D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FF2A5A814B6B69C00F930D4 /* KaitenExtensions-Prefix.pch */ = {isa = PBXFileReference; path = "KaitenExtensions-Prefix.pch"; sourceTree = "<group>"; };
+		3FF2A5A914B6B69C00F930D4 /* KaitenExtensions.h */ = {isa = PBXFileReference; path = KaitenExtensions.h; sourceTree = "<group>"; };
+		3FF2A5AA14B6B69C00F930D4 /* KaitenExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaitenExtensions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF2A59A14B6B69C00F930D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF2A5A114B6B69C00F930D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF2A59214B6B69C00F930D4 = {
+			isa = PBXGroup;
+			children = (
+				3FF2A5A614B6B69C00F930D4 /* KaitenExtensions */,
+				3FF2A59F14B6B69C00F930D4 /* Frameworks */,
+				3FF2A59E14B6B69C00F930D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF2A59E14B6B69C00F930D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2A59D14B6B69C00F930D4 /* libKaitenExtensions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF2A59F14B6B69C00F930D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2A5A014B6B69C00F930D4 /* Cocoa.framework */,
+				3FF2A5A214B6B69C00F930D4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FF2A5A214B6B69C00F930D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2A5A314B6B69C00F930D4 /* AppKit.framework */,
+				3FF2A5A414B6B69C00F930D4 /* CoreData.framework */,
+				3FF2A5A514B6B69C00F930D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3FF2A5A614B6B69C00F930D4 /* KaitenExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2A5A914B6B69C00F930D4 /* KaitenExtensions.h */,
+				3FF2A5AA14B6B69C00F930D4 /* KaitenExtensions.m */,
+				3FF2A5A714B6B69C00F930D4 /* Supporting Files */,
+			);
+			path = KaitenExtensions;
+			sourceTree = "<group>";
+		};
+		3FF2A5A714B6B69C00F930D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2A5A814B6B69C00F930D4 /* KaitenExtensions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FF2A59B14B6B69C00F930D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FF2A59C14B6B69C00F930D4 /* KaitenExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF2A5AE14B6B69C00F930D4 /* Build configuration list for PBXNativeTarget "KaitenExtensions" */;
+			buildPhases = (
+				3FF2A59914B6B69C00F930D4 /* Sources */,
+				3FF2A59A14B6B69C00F930D4 /* Frameworks */,
+				3FF2A59B14B6B69C00F930D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaitenExtensions;
+			productName = KaitenExtensions;
+			productReference = 3FF2A59D14B6B69C00F930D4 /* libKaitenExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF2A59414B6B69C00F930D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Kaiten Enterprise Systems";
+			};
+			buildConfigurationList = 3FF2A59714B6B69C00F930D4 /* Build configuration list for PBXProject "KaitenExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FF2A59214B6B69C00F930D4;
+			productRefGroup = 3FF2A59E14B6B69C00F930D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF2A59C14B6B69C00F930D4 /* KaitenExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF2A59914B6B69C00F930D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF2A5AB14B6B69C00F930D4 /* KaitenExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FF2A5AC14B6B69C00F930D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3FF2A5AD14B6B69C00F930D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3FF2A5AF14B6B69C00F930D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaitenExtensions/KaitenExtensions-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FF2A5B014B6B69C00F930D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaitenExtensions/KaitenExtensions-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF2A59714B6B69C00F930D4 /* Build configuration list for PBXProject "KaitenExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF2A5AC14B6B69C00F930D4 /* Debug */,
+				3FF2A5AD14B6B69C00F930D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF2A5AE14B6B69C00F930D4 /* Build configuration list for PBXNativeTarget "KaitenExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF2A5AF14B6B69C00F930D4 /* Debug */,
+				3FF2A5B014B6B69C00F930D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF2A59414B6B69C00F930D4 /* Project object */;
+}
