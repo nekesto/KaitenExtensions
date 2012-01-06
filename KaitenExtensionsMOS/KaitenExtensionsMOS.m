@@ -1,14 +1,14 @@
 //
-//  KaitenExtensions.m
-//  KaitenExtensions
+//  KaitenExtensionsMOS.m
+//  KaitenExtensionsMOS
 //
 //  Created by David Avendasora on 1/6/12.
 //  Copyright (c) 2012 Kaiten Enterprise Systems. All rights reserved.
 //
 
-#import "KaitenExtensions.h"
+#import "KaitenExtensionsMOS.h"
 
-@implementation KaitenExtensions
+@implementation KaitenExtensionsMOS
 
 - (id)init
 {
