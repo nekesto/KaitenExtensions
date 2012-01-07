@@ -5,4 +5,6 @@
 
 + (NSPredicate *)predicateWithKey:(NSString *)key value:(id)value;
 
+- (NSPredicate *)and:(NSPredicate *)predicate_;
+
 @end

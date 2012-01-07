@@ -12,6 +12,9 @@
     return self;
 }
 
+#pragma mark -
+#pragma mark NSPredicates
+
 - (NSPredicate *)is:(id)value_
 {
     return [NSPredicate predicateWithKey:key

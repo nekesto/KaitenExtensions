@@ -12,4 +12,10 @@
     return predicate;
 }
 
+- (NSPredicate *)and:(NSPredicate *)predicate_
+{
+    NSArray * predicates = [NSArray arrayWithObjects:self, predicate_, nil];
+    return [NSCompoundPredicate andPredicateWithSubpredicates:predicates];
+}
+
 @end
