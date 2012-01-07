@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DE3C414B7BC750056C653 /* KXKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1DE3C714B7BC750056C653 /* KXKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DE3C514B7BC750056C653 /* KXKey.m */; };
 		3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F647A9C14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F647A9A14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m */; };
 		3FF2A5B614B6B6CC00F930D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF2A5A014B6B69C00F930D4 /* Cocoa.framework */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1DE3C414B7BC750056C653 /* KXKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXKey.h; sourceTree = "<group>"; };
+		3F1DE3C514B7BC750056C653 /* KXKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXKey.m; sourceTree = "<group>"; };
 		3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext-EasyFetch.h"; sourceTree = "<group>"; };
 		3F647A9A14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext-EasyFetch.m"; sourceTree = "<group>"; };
 		3FF2A5A014B6B69C00F930D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -127,6 +131,8 @@
 				3FF2A5C214B6B70A00F930D4 /* NSArray+KaitenExtensions.m */,
 				3FF2A5C314B6B70A00F930D4 /* NSPredicate+KaitenExtensions.h */,
 				3FF2A5C414B6B70A00F930D4 /* NSPredicate+KaitenExtensions.m */,
+				3F1DE3C414B7BC750056C653 /* KXKey.h */,
+				3F1DE3C514B7BC750056C653 /* KXKey.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 				3FF2A5D214B6B7A700F930D4 /* NSArray+KaitenExtensions.h in Headers */,
 				3FF2A5D414B6B7A700F930D4 /* NSPredicate+KaitenExtensions.h in Headers */,
 				3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */,
+				3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +206,7 @@
 				3FF2A5D314B6B7A700F930D4 /* NSArray+KaitenExtensions.m in Sources */,
 				3FF2A5D514B6B7A700F930D4 /* NSPredicate+KaitenExtensions.m in Sources */,
 				3F647A9C14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m in Sources */,
+				3F1DE3C714B7BC750056C653 /* KXKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
