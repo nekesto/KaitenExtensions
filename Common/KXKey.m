@@ -1,11 +1,3 @@
-//
-//  KXKey.m
-//  KaitenExtensions
-//
-//  Created by David Avendasora on 1/7/12.
-//  Copyright (c) 2012 Kaiten Enterprise Systems. All rights reserved.
-//
-
 #import "KXKey.h"
 #import "NSPredicate+KaitenExtensions.h"
 
