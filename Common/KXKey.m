@@ -5,19 +5,22 @@
 
 @synthesize key;
 
-- (id)initWithKey:(NSString *)key_
-{
+- (id)initWithKeyPath:(NSString *)keyPath_ {
     self = [self init];
-    [self setKey:key_];    
+    [self setKey: keyPath_];    
     return self;
+}
+
+- (KXKey *)dot:(KXKey *)kxKey_ {
+    NSString * key_ = [NSString stringWithFormat:@"%@.%@", self.key, kxKey_.key];
+    return [[KXKey alloc] initWithKeyPath:key_];
 }
 
 #pragma mark -
 #pragma mark NSPredicates
 
-- (NSPredicate *)is:(id)value_
-{
-    return [NSPredicate predicateWithKey:key
+- (NSPredicate *)is:(id)value_ {
+    return [NSPredicate predicateWithKey:self.key
                                    value:value_];
 }
 

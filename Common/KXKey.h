@@ -6,11 +6,13 @@
 
 @property (readonly, strong, nonatomic) NSString *key;
 
-- (id)initWithKey:(NSString *)key_;
+- (id)initWithKeyPath:(NSString *)keyPath_;
+- (KXKey *)dot:(KXKey *)kxKey_;
 
 #pragma mark -
 #pragma mark NSPreicates
 
 - (NSPredicate *)is:(id)value_;
+
 
 @end
