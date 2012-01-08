@@ -4,7 +4,7 @@
     
 }
 
-@property (readonly, strong, nonatomic) NSString *key;
+@property (strong, nonatomic) NSString * key;
 
 - (id)initWithKeyPath:(NSString *)keyPath_;
 - (KXKey *)dot:(KXKey *)kxKey_;

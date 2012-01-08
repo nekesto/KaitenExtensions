@@ -7,7 +7,7 @@
 
 - (id)initWithKeyPath:(NSString *)keyPath_ {
     self = [self init];
-    [self setKey: keyPath_];    
+    [self setKey:keyPath_];    
     return self;
 }
 
