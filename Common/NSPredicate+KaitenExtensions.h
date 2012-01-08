@@ -5,6 +5,13 @@
 
 + (NSPredicate *)predicateWithKey:(NSString *)key value:(id)value;
 
++ (NSPredicate *)predicateWithSubpredicate:(NSPredicate *)firstPredicate_
+                           andSubpredicate:(NSPredicate *)secondPredicate_;
+
++ (NSPredicate *)predicateWithSubpredicate:(NSPredicate *)firstPredicate_
+                            orSubpredicate:(NSPredicate *)secondPredicate_;
+
 - (NSPredicate *)and:(NSPredicate *)predicate_;
+- (NSPredicate *)or:(NSPredicate *)predicate_;
 
 @end

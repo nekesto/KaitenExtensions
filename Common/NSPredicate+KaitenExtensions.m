@@ -12,10 +12,28 @@
     return predicate;
 }
 
++ (NSPredicate *)predicateWithSubpredicate:(NSPredicate *)firstPredicate_ 
+                           andSubpredicate:(NSPredicate *)secondPredicate_
+{
+    return [NSCompoundPredicate andPredicateWithSubpredicates:[NSArray arrayWithObjects:firstPredicate_, secondPredicate_, nil]];   
+}
+
++ (NSPredicate *)predicateWithSubpredicate:(NSPredicate *)firstPredicate_ 
+                            orSubpredicate:(NSPredicate *)secondPredicate_
+{
+    return [NSCompoundPredicate orPredicateWithSubpredicates:[NSArray arrayWithObjects:firstPredicate_, secondPredicate_, nil]];   
+}
+
 - (NSPredicate *)and:(NSPredicate *)predicate_
 {
-    NSArray * predicates = [NSArray arrayWithObjects:self, predicate_, nil];
-    return [NSCompoundPredicate andPredicateWithSubpredicates:predicates];
+    return [NSPredicate predicateWithSubpredicate:self 
+                                  andSubpredicate:predicate_];
+}
+
+- (NSPredicate *)or:(NSPredicate *)predicate_
+{
+    return [NSPredicate predicateWithSubpredicate:self 
+                                   orSubpredicate:predicate_];
 }
 
 @end
