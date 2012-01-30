@@ -3,7 +3,11 @@
 
 @interface NSPredicate (KaitenExtensions)
 
-+ (NSPredicate *)predicateWithKey:(NSString *)key value:(id)value;
++ (NSPredicate *)predicateWithKey:(NSString *)key_ 
+                            value:(id)value_;
+
++(NSPredicate *)predicateWithKey:(NSString *)key_
+                   containsValue:(id)value_ ;
 
 + (NSPredicate *)predicateWithSubpredicate:(NSPredicate *)firstPredicate_
                            andSubpredicate:(NSPredicate *)secondPredicate_;

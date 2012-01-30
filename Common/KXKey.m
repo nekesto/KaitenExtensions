@@ -24,4 +24,9 @@
                                    value:value_];
 }
 
+- (NSPredicate *)contains:(id)value_ {
+    return [NSPredicate predicateWithKey:self.key
+                           containsValue:value_];
+}
+
 @end

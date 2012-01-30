@@ -5,10 +5,15 @@
 
 @implementation NSPredicate (KaitenExtensions)
 
-+(NSPredicate *)predicateWithKey:(NSString *)key 
-                           value:(id)value
-{
-    NSPredicate * predicate = [NSPredicate predicateWithFormat:@"%K = %@", key, value];
++(NSPredicate *)predicateWithKey:(NSString *)key_ 
+                           value:(id)value_ {
+    NSPredicate * predicate = [NSPredicate predicateWithFormat:@"%K = %@", key_, value_];
+    return predicate;
+}
+
++(NSPredicate *)predicateWithKey:(NSString *)key_
+                   containsValue:(id)value_ {
+    NSPredicate * predicate = [NSPredicate predicateWithFormat:@"%K contains %@", key_, value_];
     return predicate;
 }
 

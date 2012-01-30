@@ -13,6 +13,6 @@
 #pragma mark NSPreicates
 
 - (NSPredicate *)is:(id)value_;
-
+- (NSPredicate *)contains:(id)value_;
 
 @end
