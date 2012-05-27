@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0419771572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3F0419761572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch */; };
 		3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DE3C414B7BC750056C653 /* KXKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F1DE3C714B7BC750056C653 /* KXKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DE3C514B7BC750056C653 /* KXKey.m */; };
 		3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0419761572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KaitenExtensionsMOS-Prefix.pch"; sourceTree = "<group>"; };
 		3F1DE3C414B7BC750056C653 /* KXKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXKey.h; sourceTree = "<group>"; };
 		3F1DE3C514B7BC750056C653 /* KXKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXKey.m; sourceTree = "<group>"; };
 		3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext-EasyFetch.h"; sourceTree = "<group>"; };
@@ -29,7 +31,6 @@
 		3FF2A5A414B6B69C00F930D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3FF2A5A514B6B69C00F930D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FF2A5B514B6B6CC00F930D4 /* libKaitenExtensionsMOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKaitenExtensionsMOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF2A5B914B6B6CC00F930D4 /* KaitenExtensionsMOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KaitenExtensionsMOS-Prefix.pch"; path = "KaitenExtensionsMOS/KaitenExtensionsMOS-Prefix.pch"; sourceTree = "<group>"; };
 		3FF2A5BA14B6B6CC00F930D4 /* KaitenExtensionsMOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaitenExtensionsMOS.h; sourceTree = "<group>"; };
 		3FF2A5BB14B6B6CC00F930D4 /* KaitenExtensionsMOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaitenExtensionsMOS.m; sourceTree = "<group>"; };
 		3FF2A5C114B6B70A00F930D4 /* NSArray+KaitenExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KaitenExtensions.h"; sourceTree = "<group>"; };
@@ -119,7 +120,7 @@
 		3FF2A5B814B6B6CC00F930D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FF2A5B914B6B6CC00F930D4 /* KaitenExtensionsMOS-Prefix.pch */,
+				3F0419761572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,6 +149,7 @@
 				3FF2A5D414B6B7A700F930D4 /* NSPredicate+KaitenExtensions.h in Headers */,
 				3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */,
 				3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */,
+				3F0419771572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
