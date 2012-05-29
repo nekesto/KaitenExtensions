@@ -1,8 +1,8 @@
 //
-//  KaitenExtensionsMOS.h
-//  KaitenExtensionsMOS
+//  KaitenExtensionsIOS.h
+//  KaitenExtensionsIOS
 //
-//  Created by David Avendasora on 1/6/12.
+//  Created by David Avendasora on 5/28/12.
 //  Copyright (c) 2012 Kaiten Enterprise Systems. All rights reserved.
 //
 
@@ -13,6 +13,6 @@
 #import "KXKey.h"
 #import "NSManagedObjectContext-EasyFetch.h"
 
-@interface KaitenExtensionsMOS : NSObject
+@interface KaitenExtensionsIOS : NSObject
 
 @end
