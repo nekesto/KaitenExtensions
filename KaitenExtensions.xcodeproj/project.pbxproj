@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0419771572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3F0419761572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch */; };
 		3F04197E1572EFE300C4DEAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F04197D1572EFE300C4DEAA /* Foundation.framework */; };
-		3F0419841572EFE300C4DEAA /* KaitenExtensionsIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0419831572EFE300C4DEAA /* KaitenExtensionsIOS.m */; };
 		3F0419881572F02A00C4DEAA /* NSManagedObjectContext-EasyFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F647A9A14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m */; };
 		3F0419891572F02A00C4DEAA /* NSArray+KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2A5C214B6B70A00F930D4 /* NSArray+KaitenExtensions.m */; };
 		3F04198A1572F02A00C4DEAA /* NSPredicate+KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2A5C414B6B70A00F930D4 /* NSPredicate+KaitenExtensions.m */; };
@@ -18,19 +16,13 @@
 		3F04198D1572F0F500C4DEAA /* NSArray+KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2A5C114B6B70A00F930D4 /* NSArray+KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F04198E1572F0F500C4DEAA /* NSPredicate+KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2A5C314B6B70A00F930D4 /* NSPredicate+KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F04198F1572F0F500C4DEAA /* KXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DE3C414B7BC750056C653 /* KXKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F0419911572F12600C4DEAA /* KaitenExtensionsIOS-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3F0419811572EFE300C4DEAA /* KaitenExtensionsIOS-Prefix.pch */; };
 		3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DE3C414B7BC750056C653 /* KXKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F1DE3C714B7BC750056C653 /* KXKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DE3C514B7BC750056C653 /* KXKey.m */; };
 		3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F647A9C14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F647A9A14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m */; };
 		3F6D4AD31574373800074CA8 /* KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D4AD21574372900074CA8 /* KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F6D4AD41574373B00074CA8 /* KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D4AD21574372900074CA8 /* KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F6D4AD5157437CE00074CA8 /* KaitenExtensionsIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0419821572EFE300C4DEAA /* KaitenExtensionsIOS.h */; };
-		3F6D4AD6157437D200074CA8 /* KaitenExtensionsMOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2A5BA14B6B6CC00F930D4 /* KaitenExtensionsMOS.h */; };
-		3FE44F3C15737C33001CB50B /* KaitenExtensionsIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0419821572EFE300C4DEAA /* KaitenExtensionsIOS.h */; settings = {ATTRIBUTES = (); }; };
-		3FE44F3D15737C3E001CB50B /* KaitenExtensionsMOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2A5BA14B6B6CC00F930D4 /* KaitenExtensionsMOS.h */; settings = {ATTRIBUTES = (); }; };
 		3FF2A5B614B6B6CC00F930D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF2A5A014B6B69C00F930D4 /* Cocoa.framework */; };
-		3FF2A5BC14B6B6CC00F930D4 /* KaitenExtensionsMOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2A5BB14B6B6CC00F930D4 /* KaitenExtensionsMOS.m */; };
 		3FF2A5D214B6B7A700F930D4 /* NSArray+KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2A5C114B6B70A00F930D4 /* NSArray+KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FF2A5D314B6B7A700F930D4 /* NSArray+KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2A5C214B6B70A00F930D4 /* NSArray+KaitenExtensions.m */; };
 		3FF2A5D414B6B7A700F930D4 /* NSPredicate+KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF2A5C314B6B70A00F930D4 /* NSPredicate+KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -198,14 +190,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0419911572F12600C4DEAA /* KaitenExtensionsIOS-Prefix.pch in Headers */,
-				3FE44F3C15737C33001CB50B /* KaitenExtensionsIOS.h in Headers */,
 				3F04198D1572F0F500C4DEAA /* NSArray+KaitenExtensions.h in Headers */,
 				3F04198E1572F0F500C4DEAA /* NSPredicate+KaitenExtensions.h in Headers */,
 				3F04198C1572F0F500C4DEAA /* NSManagedObjectContext-EasyFetch.h in Headers */,
 				3F04198F1572F0F500C4DEAA /* KXKey.h in Headers */,
 				3F6D4AD41574373B00074CA8 /* KaitenExtensions.h in Headers */,
-				3F6D4AD6157437D200074CA8 /* KaitenExtensionsMOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,14 +202,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0419771572EE1B00C4DEAA /* KaitenExtensionsMOS-Prefix.pch in Headers */,
-				3FE44F3D15737C3E001CB50B /* KaitenExtensionsMOS.h in Headers */,
 				3FF2A5D214B6B7A700F930D4 /* NSArray+KaitenExtensions.h in Headers */,
 				3FF2A5D414B6B7A700F930D4 /* NSPredicate+KaitenExtensions.h in Headers */,
 				3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */,
 				3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */,
 				3F6D4AD31574373800074CA8 /* KaitenExtensions.h in Headers */,
-				3F6D4AD5157437CE00074CA8 /* KaitenExtensionsIOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0419841572EFE300C4DEAA /* KaitenExtensionsIOS.m in Sources */,
 				3F0419891572F02A00C4DEAA /* NSArray+KaitenExtensions.m in Sources */,
 				3F04198A1572F02A00C4DEAA /* NSPredicate+KaitenExtensions.m in Sources */,
 				3F0419881572F02A00C4DEAA /* NSManagedObjectContext-EasyFetch.m in Sources */,
@@ -306,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF2A5BC14B6B6CC00F930D4 /* KaitenExtensionsMOS.m in Sources */,
 				3FF2A5D314B6B7A700F930D4 /* NSArray+KaitenExtensions.m in Sources */,
 				3FF2A5D514B6B7A700F930D4 /* NSPredicate+KaitenExtensions.m in Sources */,
 				3F647A9C14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m in Sources */,
@@ -324,6 +308,7 @@
 				DSTROOT = /tmp/KaitenExtensionsIOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KaitenExtensionsIOS/KaitenExtensionsIOS-Prefix.pch";
+				GCC_VERSION = "";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
@@ -340,6 +325,7 @@
 				DSTROOT = /tmp/KaitenExtensionsIOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KaitenExtensionsIOS/KaitenExtensionsIOS-Prefix.pch";
+				GCC_VERSION = "";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
@@ -372,6 +358,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
@@ -396,6 +383,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SDKROOT = macosx;

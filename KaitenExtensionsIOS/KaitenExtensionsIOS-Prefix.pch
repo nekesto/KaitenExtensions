@@ -1,8 +1,8 @@
 //
-// Prefix header for all source files of the 'KaitenExtensionsIOS' target in the 'KaitenExtensionsIOS' project
+// Prefix header for all source files of the 'KaitenExtensionsIOS' target in the 'KaitenExtensions' project
 //
 
 #ifdef __OBJC__
-    #import <CoreData/CoreData.h>
     #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
 #endif
