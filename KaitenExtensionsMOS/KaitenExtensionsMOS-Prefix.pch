@@ -3,5 +3,6 @@
 //
 
 #ifdef __OBJC__
+    #import <CoreData/CoreData.h>
     #import <Cocoa/Cocoa.h>
 #endif

@@ -8,10 +8,10 @@
 
 #import <CoreData/CoreData.h>
 #import <Foundation/Foundation.h>
+#import "NSManagedObjectContext-EasyFetch.h"
 #import "NSArray+KaitenExtensions.h"
 #import "NSPredicate+KaitenExtensions.h"
 #import "KXKey.h"
-#import "NSManagedObjectContext-EasyFetch.h"
 
 @interface KaitenExtensions : NSObject
 
