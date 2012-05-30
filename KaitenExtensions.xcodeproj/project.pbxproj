@@ -253,7 +253,7 @@
 		3FF2A59414B6B69C00F930D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = KEX;
+				CLASSPREFIX = KX;
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Kaiten, Inc.";
 			};
