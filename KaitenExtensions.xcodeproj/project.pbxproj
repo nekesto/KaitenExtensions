@@ -18,6 +18,16 @@
 		3F04198F1572F0F500C4DEAA /* KXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DE3C414B7BC750056C653 /* KXKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DE3C414B7BC750056C653 /* KXKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F1DE3C714B7BC750056C653 /* KXKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DE3C514B7BC750056C653 /* KXKey.m */; };
+		3F3660A91579B21F0019F72E /* NSFileManager+DirectoryLocations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3660A71579B21F0019F72E /* NSFileManager+DirectoryLocations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3660AA1579B21F0019F72E /* NSFileManager+DirectoryLocations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3660A71579B21F0019F72E /* NSFileManager+DirectoryLocations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3660AB1579B21F0019F72E /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3660A81579B21F0019F72E /* NSFileManager+DirectoryLocations.m */; };
+		3F3660AC1579B21F0019F72E /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3660A81579B21F0019F72E /* NSFileManager+DirectoryLocations.m */; };
+		3F3660AE1579B6A20019F72E /* KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3660AD1579B6A20019F72E /* KaitenExtensions.m */; };
+		3F3660AF1579B6A20019F72E /* KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3660AD1579B6A20019F72E /* KaitenExtensions.m */; };
+		3F3A8DA515799A5B0056590A /* NSDate+KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3A8DA315799A5B0056590A /* NSDate+KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3A8DA615799A5B0056590A /* NSDate+KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3A8DA315799A5B0056590A /* NSDate+KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3A8DA715799A5B0056590A /* NSDate+KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A8DA415799A5B0056590A /* NSDate+KaitenExtensions.m */; };
+		3F3A8DA815799A5B0056590A /* NSDate+KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A8DA415799A5B0056590A /* NSDate+KaitenExtensions.m */; };
 		3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F647A9C14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F647A9A14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m */; };
 		3F6D4AD31574373800074CA8 /* KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D4AD21574372900074CA8 /* KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +48,11 @@
 		3F0419831572EFE300C4DEAA /* KaitenExtensionsIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaitenExtensionsIOS.m; sourceTree = "<group>"; };
 		3F1DE3C414B7BC750056C653 /* KXKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXKey.h; sourceTree = "<group>"; };
 		3F1DE3C514B7BC750056C653 /* KXKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXKey.m; sourceTree = "<group>"; };
+		3F3660A71579B21F0019F72E /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		3F3660A81579B21F0019F72E /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+		3F3660AD1579B6A20019F72E /* KaitenExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaitenExtensions.m; sourceTree = "<group>"; };
+		3F3A8DA315799A5B0056590A /* NSDate+KaitenExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KaitenExtensions.h"; sourceTree = "<group>"; };
+		3F3A8DA415799A5B0056590A /* NSDate+KaitenExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KaitenExtensions.m"; sourceTree = "<group>"; };
 		3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext-EasyFetch.h"; sourceTree = "<group>"; };
 		3F647A9A14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext-EasyFetch.m"; sourceTree = "<group>"; };
 		3F6D4AD21574372900074CA8 /* KaitenExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaitenExtensions.h; sourceTree = "<group>"; };
@@ -92,12 +107,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3F3660A51579B1D20019F72E /* projectswithlove.com */ = {
+			isa = PBXGroup;
+			children = (
+				3F3660A71579B21F0019F72E /* NSFileManager+DirectoryLocations.h */,
+				3F3660A81579B21F0019F72E /* NSFileManager+DirectoryLocations.m */,
+			);
+			path = projectswithlove.com;
+			sourceTree = "<group>";
+		};
 		3F647A9614B6DDFB0029AC47 /* 3rd Party */ = {
 			isa = PBXGroup;
 			children = (
+				3F3660A51579B1D20019F72E /* projectswithlove.com */,
 				3F647A9814B6DE0A0029AC47 /* coredata-easyfetch */,
 			);
 			name = "3rd Party";
+			path = 3rdParty;
 			sourceTree = "<group>";
 		};
 		3F647A9814B6DE0A0029AC47 /* coredata-easyfetch */ = {
@@ -106,14 +132,34 @@
 				3F647A9914B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h */,
 				3F647A9A14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m */,
 			);
-			name = "coredata-easyfetch";
-			path = "../coredata-easyfetch";
+			path = "coredata-easyfetch";
+			sourceTree = "<group>";
+		};
+		3FD86E3A1579CF0F00E53043 /* Kaiten */ = {
+			isa = PBXGroup;
+			children = (
+				3F1DE3C414B7BC750056C653 /* KXKey.h */,
+				3F1DE3C514B7BC750056C653 /* KXKey.m */,
+			);
+			name = Kaiten;
+			sourceTree = "<group>";
+		};
+		3FD86E3B1579CF7B00E53043 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2A5C114B6B70A00F930D4 /* NSArray+KaitenExtensions.h */,
+				3F3A8DA315799A5B0056590A /* NSDate+KaitenExtensions.h */,
+				3FF2A5C314B6B70A00F930D4 /* NSPredicate+KaitenExtensions.h */,
+				3FF2A5C214B6B70A00F930D4 /* NSArray+KaitenExtensions.m */,
+				3F3A8DA415799A5B0056590A /* NSDate+KaitenExtensions.m */,
+				3FF2A5C414B6B70A00F930D4 /* NSPredicate+KaitenExtensions.m */,
+			);
+			name = Apple;
 			sourceTree = "<group>";
 		};
 		3FF2A59214B6B69C00F930D4 = {
 			isa = PBXGroup;
 			children = (
-				3F647A9614B6DDFB0029AC47 /* 3rd Party */,
 				3FF2A5C014B6B70A00F930D4 /* Common */,
 				3FF2A5B714B6B6CC00F930D4 /* KaitenExtensionsMOS */,
 				3F04197F1572EFE300C4DEAA /* KaitenExtensionsIOS */,
@@ -173,12 +219,10 @@
 			isa = PBXGroup;
 			children = (
 				3F6D4AD21574372900074CA8 /* KaitenExtensions.h */,
-				3F1DE3C414B7BC750056C653 /* KXKey.h */,
-				3FF2A5C114B6B70A00F930D4 /* NSArray+KaitenExtensions.h */,
-				3FF2A5C314B6B70A00F930D4 /* NSPredicate+KaitenExtensions.h */,
-				3F1DE3C514B7BC750056C653 /* KXKey.m */,
-				3FF2A5C214B6B70A00F930D4 /* NSArray+KaitenExtensions.m */,
-				3FF2A5C414B6B70A00F930D4 /* NSPredicate+KaitenExtensions.m */,
+				3F3660AD1579B6A20019F72E /* KaitenExtensions.m */,
+				3FD86E3A1579CF0F00E53043 /* Kaiten */,
+				3FD86E3B1579CF7B00E53043 /* Apple */,
+				3F647A9614B6DDFB0029AC47 /* 3rd Party */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -195,6 +239,8 @@
 				3F04198C1572F0F500C4DEAA /* NSManagedObjectContext-EasyFetch.h in Headers */,
 				3F04198F1572F0F500C4DEAA /* KXKey.h in Headers */,
 				3F6D4AD41574373B00074CA8 /* KaitenExtensions.h in Headers */,
+				3F3A8DA615799A5B0056590A /* NSDate+KaitenExtensions.h in Headers */,
+				3F3660AA1579B21F0019F72E /* NSFileManager+DirectoryLocations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +253,8 @@
 				3F647A9B14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.h in Headers */,
 				3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */,
 				3F6D4AD31574373800074CA8 /* KaitenExtensions.h in Headers */,
+				3F3A8DA515799A5B0056590A /* NSDate+KaitenExtensions.h in Headers */,
+				3F3660A91579B21F0019F72E /* NSFileManager+DirectoryLocations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +332,9 @@
 				3F04198A1572F02A00C4DEAA /* NSPredicate+KaitenExtensions.m in Sources */,
 				3F0419881572F02A00C4DEAA /* NSManagedObjectContext-EasyFetch.m in Sources */,
 				3F04198B1572F02A00C4DEAA /* KXKey.m in Sources */,
+				3F3A8DA815799A5B0056590A /* NSDate+KaitenExtensions.m in Sources */,
+				3F3660AC1579B21F0019F72E /* NSFileManager+DirectoryLocations.m in Sources */,
+				3F3660AF1579B6A20019F72E /* KaitenExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +346,9 @@
 				3FF2A5D514B6B7A700F930D4 /* NSPredicate+KaitenExtensions.m in Sources */,
 				3F647A9C14B6DE330029AC47 /* NSManagedObjectContext-EasyFetch.m in Sources */,
 				3F1DE3C714B7BC750056C653 /* KXKey.m in Sources */,
+				3F3A8DA715799A5B0056590A /* NSDate+KaitenExtensions.m in Sources */,
+				3F3660AB1579B21F0019F72E /* NSFileManager+DirectoryLocations.m in Sources */,
+				3F3660AE1579B6A20019F72E /* KaitenExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

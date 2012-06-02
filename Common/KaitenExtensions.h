@@ -10,6 +10,10 @@
 #import "NSArray+KaitenExtensions.h"
 #import "NSPredicate+KaitenExtensions.h"
 #import "KXKey.h"
+#import "NSDate+KaitenExtensions.h"
+#import "NSFileManager+DirectoryLocations.h"
+
+
 
 @interface KaitenExtensions : NSObject
 
