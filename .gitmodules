@@ -1,3 +1,3 @@
 [submodule "Common/3rdParty/coredata-easyfetch"]
 	path = Common/3rdParty/coredata-easyfetch
-	url = https://github.com/halostatue/coredata-easyfetch.git
+url=git://github.com/halostatue/coredata-easyfetch.git
