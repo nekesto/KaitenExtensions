@@ -24,6 +24,10 @@
 		3F15665A157DA0D200496359 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F156652157DA0D200496359 /* NSFileManager+DirectoryLocations.m */; };
 		3F1DE3C614B7BC750056C653 /* KXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DE3C414B7BC750056C653 /* KXKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F1DE3C714B7BC750056C653 /* KXKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DE3C514B7BC750056C653 /* KXKey.m */; };
+		3F30DACB15834A39008EAA4B /* KXNSURLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F30DAC915834A39008EAA4B /* KXNSURLValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F30DACC15834A39008EAA4B /* KXNSURLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F30DAC915834A39008EAA4B /* KXNSURLValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F30DACD15834A39008EAA4B /* KXNSURLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30DACA15834A39008EAA4B /* KXNSURLValueTransformer.m */; };
+		3F30DACE15834A39008EAA4B /* KXNSURLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30DACA15834A39008EAA4B /* KXNSURLValueTransformer.m */; };
 		3F3660AE1579B6A20019F72E /* KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3660AD1579B6A20019F72E /* KaitenExtensions.m */; };
 		3F3660AF1579B6A20019F72E /* KaitenExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3660AD1579B6A20019F72E /* KaitenExtensions.m */; };
 		3F3A8DA515799A5B0056590A /* NSDate+KaitenExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3A8DA315799A5B0056590A /* NSDate+KaitenExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,6 +56,8 @@
 		3F156652157DA0D200496359 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
 		3F1DE3C414B7BC750056C653 /* KXKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXKey.h; sourceTree = "<group>"; };
 		3F1DE3C514B7BC750056C653 /* KXKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXKey.m; sourceTree = "<group>"; };
+		3F30DAC915834A39008EAA4B /* KXNSURLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXNSURLValueTransformer.h; sourceTree = "<group>"; };
+		3F30DACA15834A39008EAA4B /* KXNSURLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXNSURLValueTransformer.m; sourceTree = "<group>"; };
 		3F3660AD1579B6A20019F72E /* KaitenExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaitenExtensions.m; sourceTree = "<group>"; };
 		3F3A8DA315799A5B0056590A /* NSDate+KaitenExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KaitenExtensions.h"; sourceTree = "<group>"; };
 		3F3A8DA415799A5B0056590A /* NSDate+KaitenExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KaitenExtensions.m"; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 			children = (
 				3F1DE3C414B7BC750056C653 /* KXKey.h */,
 				3F1DE3C514B7BC750056C653 /* KXKey.m */,
+				3F30DAC915834A39008EAA4B /* KXNSURLValueTransformer.h */,
+				3F30DACA15834A39008EAA4B /* KXNSURLValueTransformer.m */,
 			);
 			name = Kaiten;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 				3F3A8DA615799A5B0056590A /* NSDate+KaitenExtensions.h in Headers */,
 				3F156654157DA0D200496359 /* NSManagedObjectContext-EasyFetch.h in Headers */,
 				3F156658157DA0D200496359 /* NSFileManager+DirectoryLocations.h in Headers */,
+				3F30DACC15834A39008EAA4B /* KXNSURLValueTransformer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +263,7 @@
 				3F3A8DA515799A5B0056590A /* NSDate+KaitenExtensions.h in Headers */,
 				3F156653157DA0D200496359 /* NSManagedObjectContext-EasyFetch.h in Headers */,
 				3F156657157DA0D200496359 /* NSFileManager+DirectoryLocations.h in Headers */,
+				3F30DACB15834A39008EAA4B /* KXNSURLValueTransformer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +344,7 @@
 				3F3660AF1579B6A20019F72E /* KaitenExtensions.m in Sources */,
 				3F156656157DA0D200496359 /* NSManagedObjectContext-EasyFetch.m in Sources */,
 				3F15665A157DA0D200496359 /* NSFileManager+DirectoryLocations.m in Sources */,
+				3F30DACE15834A39008EAA4B /* KXNSURLValueTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +359,7 @@
 				3F3660AE1579B6A20019F72E /* KaitenExtensions.m in Sources */,
 				3F156655157DA0D200496359 /* NSManagedObjectContext-EasyFetch.m in Sources */,
 				3F156659157DA0D200496359 /* NSFileManager+DirectoryLocations.m in Sources */,
+				3F30DACD15834A39008EAA4B /* KXNSURLValueTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

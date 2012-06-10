@@ -14,6 +14,7 @@
 #import "KXKey.h"
 #import "NSDate+KaitenExtensions.h"
 #import "NSFileManager+DirectoryLocations.h"
+#import "KXNSURLValueTransformer.h"
 
 @interface KaitenExtensions : NSObject
 
