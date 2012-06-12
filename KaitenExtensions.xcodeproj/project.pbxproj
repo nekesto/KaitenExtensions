@@ -167,8 +167,8 @@
 		3FF2A59214B6B69C00F930D4 = {
 			isa = PBXGroup;
 			children = (
-				3FF2A5C014B6B70A00F930D4 /* Common */,
 				3FF2A5B714B6B6CC00F930D4 /* KaitenExtensionsMOS */,
+				3FF2A5C014B6B70A00F930D4 /* Common */,
 				3F04197F1572EFE300C4DEAA /* KaitenExtensionsIOS */,
 				3FF2A59F14B6B69C00F930D4 /* Frameworks */,
 				3FF2A59E14B6B69C00F930D4 /* Products */,
@@ -326,8 +326,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FF2A5B414B6B6CC00F930D4 /* KaitenExtensionsMOS */,
 				3F04197B1572EFE300C4DEAA /* KaitenExtensionsIOS */,
+				3FF2A5B414B6B6CC00F930D4 /* KaitenExtensionsMOS */,
 			);
 		};
 /* End PBXProject section */

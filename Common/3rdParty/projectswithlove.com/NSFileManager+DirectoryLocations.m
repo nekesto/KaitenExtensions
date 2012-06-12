@@ -147,4 +147,17 @@ NSString * const DirectoryLocationDomain = @"DirectoryLocationDomain";
 	return result;
 }
 
+- (NSString *)documentsDirectory {
+	NSString *executableName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleExecutable"];
+	NSError *error;
+	NSString *result = [self findOrCreateDirectory:NSApplicationSupportDirectory
+                                          inDomain:NSUserDomainMask
+                               appendPathComponent:[executableName stringByAppendingPathComponent:@"Documents"]
+                                             error:&error];
+	if (!result) {
+		NSLog(@"Unable to find or create documents directory:\n%@", error);
+	}
+	return result;
+}
+
 @end
