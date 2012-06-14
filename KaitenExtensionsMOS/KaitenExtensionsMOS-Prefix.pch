@@ -2,7 +2,5 @@
 // Prefix header for all source files of the 'KaitenExtensionsMOS' target in the 'KaitenExtensions' project
 //
 
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-    #import <CoreData/CoreData.h>
-#endif
+#import <Cocoa/Cocoa.h>
+#import <CoreData/CoreData.h>

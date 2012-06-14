@@ -131,8 +131,10 @@ NSString * const DirectoryLocationDomain = @"DirectoryLocationDomain";
 //
 // applicationSupportDirectory
 //
-// Returns the path to the applicationSupportDirectory (creating it if it doesn't
-// exist).
+// Returns the path to the applicationSupportDirectory (creating it if it doesn't exist).
+// MacOS (w/ iCloud): ~/Library/Containers/com.kaiten.ClaimIt/Data/Library/Application/ Support
+// MacOS: ~/Library/Application Support
+// iOS: /Applications/${BUNDLE_ID}/Library/Application Support
 //
 - (NSString *)applicationSupportDirectory {
 	NSString *executableName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleExecutable"];
